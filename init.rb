@@ -9,7 +9,7 @@ Redmine::Plugin.register :redmine_gtt_assistant do
   version '0.1.0'
 
   # Define the minimum required Redmine version for this plugin
-  requires_redmine :version_or_higher => '5.0.0'
+  requires_redmine :version_or_higher => '4.1.0'
 
   # Configure plugin settings with default values and a partial view for settings
   settings(
